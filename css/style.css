@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: none;
+    margin: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+  form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #000000;
+  }
+  
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    background: #2ecc71;
+    color: #eee;
+    height: 80px;
+    position: fixed;
+}
+
+#navbar-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navbar-items li {
+    padding: 10px;
+}
+
+/* Showcase */
+#showcase {
+    height: 100vh;
+    display: flex;
+    background-image: url(../assets/img/beneficios-do-pilates-grupo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+
+    /* Overlay */
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+}
+
+#showcase-container {
+    text-align: center;
+}
+
+#showcase-container h2 {
+    font-size: 2.5rem;
+}
+
+#showcase-container p {
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+
+/* About */
+#clients {
+    width: 100%;
+    background: #2ecc71;
+    color: #eee;
+    padding: 50px;
+}
+
+#clients-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    background: #2ecc71;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.client-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Gallery */
+#gallery {
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+
+#gallery-container {
+    display: inline;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.gallery-image {
+    display: inline-block;
+    width: 540px;
+    height: 360px;
+    border-radius: 5px;
+}
+
+.servicos {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-color: #2ecc71;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #2ecc71;
+}
+
+th {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+td {
+  color: #000;
+}
+
+
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .day, .time {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .day {
+    background-color: #ccc;
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .time {
+    background-color: #fff;
+    color: #000;
+    font-size: 1em;
+  }
+  
+ .table h1{
+    text-align: right;
+ }  
+
+/* Footer */
+#footer {
+    background: #2ecc71;
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+}
